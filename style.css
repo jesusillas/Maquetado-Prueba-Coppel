@@ -1,0 +1,376 @@
+*{
+    font-family: sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+img{
+    max-width: 100%;
+    width: 100%;
+}
+
+.barras{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.barras .barras-morado{
+    background-color: #6e3aab;
+    min-height: 80px;
+}
+
+.barras .barras-morado p{
+    font-size: 12px;
+    color: white;
+    text-align: center;
+    padding: 12px 8px 5px 8px;
+    font-weight: bold;
+}
+
+.barras .barras-morado .coppel-max{
+    display: flex;
+    align-items: center;
+}
+
+.barras .barras-morado img{
+    width: 153px;
+    height: 47px;
+    max-width: 153px;
+    margin: auto;
+}
+
+.barras .barras-morado a{
+    text-decoration: none;
+    background-color: #fff;
+    color: #2a2f30;
+    font-weight: bold;
+    border-color: #fff;
+    border-radius: 3px;
+    vertical-align: top;
+    font-size: 12px;
+    margin: 0 .5rem;
+    padding: 4px 12px;
+    padding-left: 11px;
+    margin: auto;
+}
+
+.barras .barras-amarillo{
+    background-color: #FFDD2F;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.barras .barras-amarillo img{
+    width: 100px;
+    height: 25px;
+}
+
+
+.div-principal{
+    padding: 15px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+/* CABECERA */
+.cabecera .cabecera-texto h1{
+    font-size: 25px;
+}
+
+.cabecera .cabecera-texto p{
+    padding: 10px 0;
+    line-height: 20px;
+}
+
+.cabecera .cabecera-img{
+    position: relative;
+}
+
+.cabecera .cabecera-img picture img{
+    max-width: 100%;
+}
+
+.cabecera .cabecera-img .cabecera-btn{
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 70%;
+}
+
+.cabecera .cabecera-img .cabecera-btn h2{
+    display: none;
+}
+
+.cabecera .cabecera-img .cabecera-btn a{
+    background: rgb(0, 108, 186);
+    color: #fff;
+    padding: 5px 9px;
+    text-align: center;
+    width: 100%;
+    font-size: 13px;
+    border-radius: 7px;
+    display: block;
+    text-decoration: none;
+}
+
+/* COLECCIONES (Carrusel #1) */
+.colecciones h2{
+    padding: 10px 0;
+}
+
+.colecciones .colecciones-carrusel-container p{
+    line-height: 20px;
+}
+
+.colecciones .colecciones-carrusel-container .owl-carousel.colecciones-carrusel-item .item a{
+    text-decoration: none;
+}
+
+.colecciones .colecciones-carrusel-container .owl-carousel.colecciones-carrusel-item .item{
+    background-color: #e6e6e6;
+    height: 500px;
+}
+
+.colecciones .colecciones-carrusel-container .owl-carousel.colecciones-carrusel-item .item .item-txt{
+    padding: 10px 10px;
+    color: #373d3f;
+    font-size: 15px;
+}
+
+/* BOTTOMS */
+
+.bottom-container-item{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+    max-width: 100%;
+}
+
+.bottoms .bottoms-container .bottom-container-item .item{
+    background-color: #e6e6e6;
+}
+
+.bottoms .bottoms-container .bottom-container-item .item a{
+    text-decoration: none;
+}
+
+.bottoms .bottoms-container .bottom-container-item .item p{
+    padding: 5px 0;
+    line-height: 22px;
+}
+
+.bottoms .bottoms-container .bottom-container-item .item .item-txt{
+    padding: 6px 10px;
+    color: #373d3f;
+    font-size: 15px;
+}
+
+/* IDEAS PARA LLEVAR (Carrusel #3) */
+.ideas h2{
+   padding: 25px 0 10px 0;
+}
+
+/* TOPS */
+.tops-container-item{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+    max-width: 100%;
+    grid-gap: 10px;
+}
+
+.tops .tops-container .tops-container-item .item:last-child{
+    grid-column: span 2;
+}
+
+.tops .tops-container .tops-container-item .item{
+    background-color: #e6e6e6;
+}
+
+.tops .tops-container .tops-container-item .item a{
+    text-decoration: none;
+}
+
+.tops .tops-container .tops-container-item .item p{
+    line-height: 22px;
+}
+
+.tops .tops-container .tops-container-item .item .item-txt{
+    padding: 6px 10px;
+    color: #373d3f;
+    font-size: 15px;
+}
+
+/* NECESITAS */
+.necesitas h2{
+    padding: 25px 0 10px 0;
+ }
+
+ .necesitas-carrusel-container{
+     padding-bottom: 30px;
+ }
+
+/* TEXTO INFORMATIVO */
+.txt-info{
+    display: none;
+}
+
+/* OFERTAS */
+hr{
+    height: 1px;
+    width: 100%;
+    background-color: black;
+    margin-bottom: 17px;
+}
+
+.ofertas .ofertas-correo{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.ofertas .ofertas-correo p{
+    font-size: 17px;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 13px;
+}
+
+.ofertas .ofertas-correo input{
+    border-radius: 8px;
+    border-color: gray;
+    color: gray;
+    height: 45px;
+    font-size: 16px;
+}
+
+.ofertas .ofertas-correo a{
+    font-size: 14px;
+    width: 100%;
+    height: 40px;
+    background: #016db6;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    border-radius: 8px;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+.ofertas .ofertas-numeros{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    padding: 15px 0;
+}
+
+.ofertas .ofertas-numeros h3{
+    padding-bottom: 10px;
+}
+
+.ofertas .ofertas-numeros .ofertas-numeros-telefono p{
+    color: #006cba;
+    text-decoration: underline;
+    font-size: 20px;;
+}
+
+
+.ofertas .ofertas-numeros .ofertas-numeros-ws h3{
+    text-align: right;
+}
+
+.ofertas .ofertas-numeros .ofertas-numeros-ws img{
+    max-width: 75px;
+    max-width: 75px;
+    margin-right: 12px;
+    float: right;
+}
+
+
+
+
+/* ****************************************** */
+ /* DESKTOP */
+ @media(min-width: 768px) {
+
+    /* CABECERA */
+    .cabecera .cabecera-img .cabecera-btn {
+        position: absolute;
+        bottom: 15px;
+        left: 50%;
+        transform: translateX(40%);
+        width: 30%;
+    }
+
+    .cabecera .cabecera-img .cabecera-btn h2{
+        display: block;
+        color: white;
+        font-weight: bold;
+        text-align: center;
+        font-size: 18px;
+        padding: 5px;
+    }
+
+    .cabecera .cabecera-img .cabecera-btn a {
+        font-size: 16px;
+    }
+
+
+    /* COLECCIONES */
+    .colecciones .colecciones-carrusel-container .owl-carousel.colecciones-carrusel-item .item {
+        height: 430px
+    }
+
+    /* TEXTO INFORMATIVO */
+    .txt-info{
+        display: inline-block;
+        Padding-bottom: 52px;
+    }
+
+    .txt-info h3{
+        padding-bottom: 10px;
+    }
+    .txt-info h4{
+        color: #373d3f;
+        padding-bottom: 10px;
+    }
+
+    .txt-info p{
+        color: #373d3f;
+        line-height: 23px;
+    }
+
+
+    /* OFERTAS */
+    .ofertas{
+      display: grid;
+      grid-template-columns: 50% 30% 20%;
+    }
+
+ }
+
+ @media(min-width: 992px) {
+ 
+/* TOPS */
+    .tops-container-item{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 30px;
+    }
+
+    .tops .tops-container .tops-container-item .item:last-child{
+        grid-column: unset;
+    }
+
+    /* OFERTAS */
+    .ofertas{
+        display: grid;
+        grid-template-columns: 50% 30% 20%;
+    }
+
+    .ofertas .ofertas-numeros {
+        display: grid;
+        grid-template-columns: 60% 40%;
+        padding: 15px 50px;
+    }
+}
